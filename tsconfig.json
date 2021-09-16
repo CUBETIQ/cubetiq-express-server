@@ -2,16 +2,17 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
+        "rootDir": "src",
         "moduleResolution": "node",
-        "sourceMap": false,
+        "sourceMap": true,
         "outDir": "dist",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "lib": ["ES2015"],
         "skipLibCheck": true,
-        "experimentalDecorators": true
+        "allowJs": true,
+        "declaration": true,
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    "include": ["src/**/*"]
 }
