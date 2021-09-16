@@ -1,1 +1,4 @@
-console.log('Welcome to TS Project!');
+import "reflect-metadata"
+import { Application } from "./application"
+
+export default Application
