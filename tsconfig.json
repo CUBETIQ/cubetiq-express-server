@@ -12,7 +12,7 @@
         "lib": ["ES2015"],
         "skipLibCheck": true,
         "allowJs": true,
-        "declaration": true,
+        "declaration": true
     },
     "include": ["src/**/*"]
 }
