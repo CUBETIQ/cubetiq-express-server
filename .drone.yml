@@ -1,0 +1,10 @@
+kind: pipeline
+type: docker
+name: ci
+steps:
+    - name: build
+      image: d.ctdn.net/node
+      commands:
+          - npm config set registry https://r.ctdn.net
+          - npm install
+          - npm run build
