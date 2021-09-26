@@ -1,4 +1,5 @@
 # CUBETIQ Express Server
+[![Build Status](https://dci.osa.cubetiqs.com/api/badges/CUBETIQ/cubetiq-express-server/status.svg)](https://dci.osa.cubetiqs.com/CUBETIQ/cubetiq-express-server)
 
 -   Express
 -   TypeScript
